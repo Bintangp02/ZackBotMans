@@ -746,12 +746,12 @@ sourceUrl: rurl
 }
 
 // Jangan diapa apain om
-const zckmn = await fetchJson("https://ZackMans.github.io/database/zackbotmans.json")
+const zckmn = await fetchJson("https://host000-1.host000.repl.co/info.json")
 const ceknyai = require('./package.json').version
 if (zckmn.update === ceknyai) {
-cekbotinfo = `Anda menggunakan zackbotmans versi terbaru (${ceknyai}), belum ada update dari owner`
+cekbotinfo = `Anda menggunakan robot versi terbaru (${ceknyai}), belum ada update dari owner`
 } else {
-cekbotinfo = `Anda menggunakan zackbotmans v${ceknyai}, owner telah mengupdate zackbotmans ke v${zckmn.update}, ketik cekupdate untuk melihat versi terbaru`
+cekbotinfo = `Anda menggunakan robot v${ceknyai}, owner telah mengupdate robot ke v${zckmn.update}, ketik cekupdate untuk melihat versi terbaru`
 }
 
 let getjson = await mans.query({
@@ -767,7 +767,7 @@ let thnsto = getjson.content[0].content[0].content[0].content ? getjson.content[
 let cBandwidth = await checkBandwidth()
 let prefs = ` ▸ ${prefix}`
 const listmn = `*ROBOT WHATSAPP MULTI DEVICE*
-_Script By MyMans APIs - X - ZackMans Official_
+_OWNER OLEH: https://wa.me/6289647417373_
 
 ${cekbotinfo}
 
