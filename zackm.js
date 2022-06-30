@@ -139,7 +139,7 @@ const isMedia = /image|video|sticker|audio/.test(mime)
 
 // Group
 const groupMetadata = m.isGroup ? await mans.groupMetadata(m.chat).catch(e => {}) : ''
-const groupName = m.isGroup ? groupMetadata.subject : ''
+const groupName = m.isGroup ? await groupMetadata.subject : ''
 const participants = m.isGroup ? await groupMetadata.participants : ''
 const groupAdmins = m.isGroup ? await participants.filter(v => v.admin !== null).map(v => v.id) : ''
 const groupOwner = m.isGroup ? groupMetadata.owner : ''
