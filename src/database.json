@@ -371,6 +371,31 @@
       "afkTime": -1,
       "afkReason": "",
       "limit": 100
+    },
+    "6285840020257@s.whatsapp.net": {
+      "afkTime": -1,
+      "afkReason": "",
+      "limit": 100
+    },
+    "6287802597145@s.whatsapp.net": {
+      "afkTime": -1,
+      "afkReason": "",
+      "limit": 100
+    },
+    "6281222724176@s.whatsapp.net": {
+      "afkTime": 1656589306319,
+      "afkReason": "mau sérang naz1",
+      "limit": 100
+    },
+    "6287758806268@s.whatsapp.net": {
+      "afkTime": -1,
+      "afkReason": "",
+      "limit": 100
+    },
+    "6288215349008@s.whatsapp.net": {
+      "afkTime": -1,
+      "afkReason": "",
+      "limit": 100
     }
   }
 }
