@@ -69,17 +69,17 @@
  "engines": {
   "node": "v17.9.0",
   "npm": "8.5.0"
-  },
+ },
  "directories": {
   "lib": "lib",
   "src": "src"
  },
  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ZackMans/ZackBotMans.git"
-  },
-  "bugs": {
-    "url": "https://github.com/ZackMans/ZackBotMans/issues"
-  },
-  "homepage": "https://github.com/ZackMans/ZackBotMans#readme"
+  "type": "git",
+  "url": "git+https://github.com/ZackMans/ZackBotMans.git"
+ },
+ "bugs": {
+  "url": "https://github.com/ZackMans/ZackBotMans/issues"
+ },
+ "homepage": "https://github.com/ZackMans/ZackBotMans#readme"
 }

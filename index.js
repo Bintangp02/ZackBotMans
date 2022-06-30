@@ -23,7 +23,7 @@ const Database = require('./lib/database.js')
 const dbs = new Database()
 
 // Buat Uptime Replit
-// require("http").createServer((_, res) => res.end("Hallo World!")).listen(8080)
+ require("http").createServer((_, res) => res.end("Hallo World!")).listen(8080)
 
 const Store = require("./lib/Store.js") //makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
 
